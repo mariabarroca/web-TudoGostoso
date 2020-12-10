@@ -59,4 +59,32 @@
     </div>
 
 </body>
+
+<footer>
+    <div class="display margintext">
+
+        <div id="criado-por"></div>
+        <div id="data"></div>
+
+        <script language=javascript type="text/javascript">
+    
+            "Criado por Maria Barroca"
+
+            let criadoPor = document.getElementById("criado-por");
+            criadoPor.style.bottom = "20px";
+            criadoPor.textAlign = "center";
+        
+            criadoPor.textContent = "Criado por Maria Barroca";
+             
+            let data = document.getElementById("data");
+            data.style.bottom = "20px";
+            data.textAlign = "center";
+        
+            now = new Date();
+            data.textContent = "Acessado em " + now.getDate() + " de " + now.getMonth() + " de " + now.getFullYear();
+        
+            </script>
+        
+        </div>
+</footer>
 </html>
